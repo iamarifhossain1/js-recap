@@ -88,3 +88,5 @@ else {
         
     }
 }
+
+console.log(myScore);
