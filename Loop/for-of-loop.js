@@ -11,3 +11,11 @@ for (const fruit of fruits) {
     console.log(fruit);
     
 }
+
+const names =  ['Thor', 'Captain America', 'Iron Man', 'SuperMan',]
+
+
+for (const name of names) {
+    console.log(name);
+    
+}
