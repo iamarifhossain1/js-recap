@@ -19,3 +19,15 @@ while (n <= 20) {
     console.log(n);
     
 }
+
+let number = 0;
+
+while (number <= 20) {
+    number++;
+    if (number % 2 === 1) {
+        continue;
+    }
+
+    console.log(number);
+    
+}
