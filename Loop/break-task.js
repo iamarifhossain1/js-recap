@@ -31,3 +31,5 @@ while (i <= 100) {
 }
 
 console.log('total sum:', sum);
+console.log('total sum:', sum);
+console.log('total sum:', sum);
