@@ -60,11 +60,12 @@ console.log(fruits);
         const numbers = [];
         const address = '123/1, Dhaka, Bangladesh';
         const result = 100;
+        const isPassed = true;
         console.log(Array.isArray(names));
         console.log(Array.isArray(numbers));
         console.log(Array.isArray(address));
-        console.log(Array.isArray(result));
-        
+        console.log(Array.isArray(result));       
+        console.log(Array.isArray(isPassed));       
 
     
     /**
