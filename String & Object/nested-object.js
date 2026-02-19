@@ -14,6 +14,7 @@ const college = {
 // console.log(college.speciality.meritStatus);
 console.log(college['speciality'].meritStatus);
 console.log(college['speciality'].gpa);
+console.log(college['speciality'].dressCode);
 const program = college.events[1] = 'valentines day';
 console.log(program);
 console.log(college.events)
