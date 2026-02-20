@@ -33,6 +33,7 @@ const car = {
 
  */
 
+
 const car = {
     make: "Toyota",
     model: "Corolla",
@@ -40,9 +41,8 @@ const car = {
 };
 
 car.passenger = 5;
-car['mileage'] = 25;
+car.mileage = 25;
 // console.log(car);
-
 
 /**
  * Task-3
@@ -69,12 +69,9 @@ const student = {
         marks: 30
     }
 };
-
-// console.log(student.physics.marks);
-student.physics.result = 'passed';
-// console.log(student.physics);
+student.physics.result = 'Passed'
+// console.log('Marks:', student.physics.marks);
 // console.log(student.physics.result);
-
 
 /**
  * Task-4
@@ -98,8 +95,9 @@ let students = {
     isStudent: true
 };
 
-const myObj = Object.keys(students).length;
-// console.log(myObj);
+const length = Object.keys(students).length;
+// console.log(length);
+
 
 /**
  * Task-5 (Hard)
@@ -115,6 +113,14 @@ city: 'Example City',
 isStudent: true
 };
 
+Output:
+
+
+key: name | type:  string
+key: age | type:  number
+key: city | type:  string
+key: isStudent | type:  boolean
+
  */
 
 let myObject = {
@@ -125,7 +131,7 @@ city: 'Example City',
 isStudent: true
 };
 
-for(const keys in myObject) {
-    console.log('key:', keys, '|', myObject[keys], ':', typeof myObject[keys]);
+for (const keys in myObject) {
+    console.log('Keys:', keys, '|', 'Type:', typeof myObject[keys] );
     
 }
