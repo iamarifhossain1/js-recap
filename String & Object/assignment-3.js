@@ -57,17 +57,44 @@ if (fileName.startsWith('#')) {
 
 else {
     if (fileName.endsWith('pdf')) {
-        console.log('Store');
+        // console.log('Store');
     }
 
     else {
         if (fileName.endsWith('docx')) {
-            console.log('Store');
+            // console.log('Store');
         }
 
         else {
-            console.log('Delete');
+            // console.log('Delete');
             
         }
     }
 }
+
+/**
+ * Task 5: PH Email Generator
+ */
+
+const student= { name: "jhankar" , roll: 1014 ,department: "cse" };
+student.email = '@ph.ac.bd';
+const email = student.name + student.roll + student.department + student.email;
+// console.log(email);
+
+// Another Approach
+
+const values = Object.values(student);
+// console.log(values.join(''));
+
+// Another Approach
+
+const fullEmail = `${student.name}${student.roll}${student.department}${student.email}`;
+// console.log(fullEmail);
+
+
+/**
+ * Task 6: Current Salary ( Challenge Problem )
+ */
+
+let experience = 30;
+let startingSalary = 45000;
