@@ -4,7 +4,7 @@
 
 const area = 800;
 const divide = area / 2;
-// console.log(divide);
+console.log(divide);
 
 /**
  * Task 2: Cycle or  Laptop
@@ -14,16 +14,16 @@ const divide = area / 2;
 const money = 31000;
 
 if (money >= 25000) {
-    // console.log('Laptop');
+    console.log('Laptop');
 }
 
 else {
     if (money >= 10000) {
-        // console.log('Cycle');
+        console.log('Cycle');
     }
 
     else {
-        // console.log('Chocolate');        
+        console.log('Chocolate');        
     }
 }
 
@@ -36,11 +36,11 @@ const lastDay = 11;
 
 for (let i = 1; i <= lastDay; i++) {
     if (i % 3 === 0) {
-        // console.log(i, '-', 'Medicine');
+        console.log(i, '-', 'Medicine');
     }
 
     else {
-        // console.log(i, '-', 'Rest');
+        console.log(i, '-', 'Rest');
         
     }
 } 
@@ -57,16 +57,16 @@ if (fileName.startsWith('#')) {
 
 else {
     if (fileName.endsWith('pdf')) {
-        // console.log('Store');
+        console.log('Store');
     }
 
     else {
         if (fileName.endsWith('docx')) {
-            // console.log('Store');
+            console.log('Store');
         }
 
         else {
-            // console.log('Delete');
+            console.log('Delete');
             
         }
     }
@@ -79,22 +79,28 @@ else {
 const student= { name: "jhankar" , roll: 1014 ,department: "cse" };
 student.email = '@ph.ac.bd';
 const email = student.name + student.roll + student.department + student.email;
-// console.log(email);
+console.log(email);
 
 // Another Approach
 
 const values = Object.values(student);
-// console.log(values.join(''));
+console.log(values.join(''));
 
 // Another Approach
 
 const fullEmail = `${student.name}${student.roll}${student.department}${student.email}`;
-// console.log(fullEmail);
+console.log(fullEmail);
 
 
 /**
  * Task 6: Current Salary ( Challenge Problem )
  */
 
-let experience = 30;
-let startingSalary = 45000;
+const experience = 30;
+let salary = 45000;
+let increment = 0.05;
+for (let i = 1; i <= experience; i++) {
+    salary = salary * (1 + increment);
+}
+
+console.log(salary.toFixed(2));
