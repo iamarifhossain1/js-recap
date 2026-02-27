@@ -29,6 +29,6 @@ console.log(reverse);
 
 const uniqueNumbers = [20, 40, 60, 80, 100];
 
-uniqueNumbers.reverse();
-console.log(uniqueNumbers);
+specialNumbers.reverse();
+console.log(specialNumbers);
 
