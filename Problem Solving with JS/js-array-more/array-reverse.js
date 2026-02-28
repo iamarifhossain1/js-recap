@@ -27,8 +27,9 @@ for (const fruit of fruits) {
 console.log(reverse);
 
 
-const uniqueNumbers = [20, 40, 60, 80, 100];
+const specialNumbers = [20, 40, 60, 80, 100];
 
 specialNumbers.reverse();
 console.log(specialNumbers);
+
 
