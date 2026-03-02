@@ -33,3 +33,11 @@ specialNumbers.reverse();
 console.log(specialNumbers);
 
 
+const couples = ['arif', 'arifa']
+
+for (const couple of couples) {
+    reverse.unshift(couple)
+}
+
+console.log(reverse);
+
